@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inter', sans-serif; 
+    margin: 0; 
+    background-color: white; /* Color de fondo suave */
+    color: #333; /* Color de texto principal */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    min-height: 100vh; /* Asegura que el contenido principal ocupe toda la altura de la pantalla */
+}
+
+.header-banner {
+    background-color: #A1E3F9; 
+    color: rgb(5, 19, 171); 
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2em;
+    margin-bottom: 10px; 
+}
+
+.input-section {
+    padding: 20px;
+    background-color: white; /* Fondo blanco para la sección de entrada */
+    margin: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.input-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-name {
+    flex-grow: 1; /* El input ocupa todo el espacio disponible */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.button-add {
+    background-color: #3674B5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.name-list {
+    list-style: none;
+    padding: 0;
+}
+
+.name-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.name-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.name-list li button {
+    background-color: #dc3545; /* Rojo para eliminar */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto; /* Empuja el botón a la derecha */
+}
+
+.contador {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilos adicionales para mejorar la apariencia (opcional) */
+.button-add:hover {
+    background-color: #0056b3;
+}
+
+.name-list li:hover {
+    background-color: #f9f9f9;
+}
